@@ -63,3 +63,21 @@ Para generar la compilación de producción o ejecutar el linter:
 pnpm build
 pnpm lint
 ```
+## Algunas capturas de las MiniApps
+- TaskApp:
+<img width="1875" height="926" alt="TaskApp" src="https://github.com/user-attachments/assets/b957b325-45c1-4480-8f0e-2ededa5c4e34" />
+
+- ScrambleWordsApp:
+<img width="1876" height="929" alt="ScrambleWords" src="https://github.com/user-attachments/assets/8542735d-6286-4bf0-b641-a259f58d1dc0" />
+
+- PokemonApp:
+<img width="1861" height="927" alt="PokemonApp" src="https://github.com/user-attachments/assets/8e1125dd-9011-4999-910c-b49c0c285b8f" />
+
+- TrafficLight:
+<img width="1861" height="912" alt="TrafficLight1" src="https://github.com/user-attachments/assets/9c144079-984e-42a6-9709-28ccb59734d4" />
+<img width="1870" height="915" alt="TrafficLight2" src="https://github.com/user-attachments/assets/3b243551-0cce-46e9-8b9a-c60e6f8d23b4" />
+
+
+
+
+
