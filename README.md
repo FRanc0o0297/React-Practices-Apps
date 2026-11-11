@@ -8,7 +8,7 @@ El proyecto busca reforzar el uso de los Hooks tradicionales y profundizar en la
 
 ## Mini aplicaciones
 
-En `src/main.tsx` se encuentran listadas ocho mini aplicaciones. Actualmente, `ScrambleWords` es la que se renderiza; para probar otra, hay que habilitar su importación y componente en ese archivo.
+En `src/main.tsx` se encuentran listados doce ejemplos. Actualmente, `ClientInformation` es el que se renderiza; para probar otro, hay que habilitar su importación y componente en ese archivo.
 
 - **HooksApp:** componente introductorio de ejemplo.
 - **TrafficLight:** semáforo interactivo para practicar `useState` y el tipado de TypeScript.
@@ -18,6 +18,10 @@ En `src/main.tsx` se encuentran listadas ocho mini aplicaciones. Actualmente, `S
 - **FocusScreen:** ejemplo de `useRef` para acceder a un campo de texto y seleccionar su contenido.
 - **TasksApp:** lista de tareas con `useReducer`, acciones para agregar, completar y eliminar tareas, persistencia en `localStorage` y validación de datos con Zod.
 - **ScrambleWords:** juego de palabras desordenadas. Usa `useReducer` para manejar la partida y sus acciones, además de `useState`, `useRef` y `useEffect` para el feedback y la limpieza del temporizador.
+- **MemoHook:** demuestra la optimización de componentes con `memo` y la estabilización de una función con `useCallback`.
+- **MemoCounter:** compara dos contadores y usa `useMemo` para evitar recalcular un valor costoso cuando cambia el contador que no afecta ese cálculo.
+- **InstagreumApp:** demostración de comentarios con actualización optimista mediante `useOptimistic`, estado pendiente con `useTransition` y notificaciones de error.
+- **ClientInformation:** obtiene información de usuario desde una promesa, la lee con `use` y muestra un estado de carga mediante `Suspense`.
 
 ## Temas de práctica
 
@@ -29,14 +33,20 @@ En `src/main.tsx` se encuentran listadas ocho mini aplicaciones. Actualmente, `S
 - Validación de esquemas con Zod.
 - Persistencia del estado con `localStorage`.
 - `sessionStorage` como tema de estudio; por ahora, no hay un ejemplo implementado en las aplicaciones listadas.
+- Memoización de componentes y valores con `memo`, `useCallback` y `useMemo`. Los ejemplos de `06-memos` se incluyen como referencia por si fuera necesario trabajar en aplicaciones con versiones legacy de React, anteriores a la implementación de React Compiler; por eso se muestra el uso de estas APIs.
+- Actualizaciones optimistas y transiciones con `useOptimistic` y `useTransition`.
+- Lectura de promesas con `use` y manejo de carga con `Suspense`.
 
 ## Tecnologías
 
-- React
+- React y React Compiler
 - TypeScript
 - Vite
 - Zod
 - Tailwind CSS
+- Sonner para notificaciones
+- Base UI y shadcn/ui para componentes de interfaz
+- Lucide React para iconos
 
 ## Cómo ejecutar el proyecto
 
